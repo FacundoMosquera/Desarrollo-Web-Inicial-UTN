@@ -67,10 +67,10 @@
                         </p> <br>
                         <form id="formularioContacto" class="needs-validation" novalidate>
                             <div class="form-row mb-3">
-                                <input type="text" placeholder="Nombre" id="nombre" required >
+                                <input type="text" name='nombre' placeholder="Nombre" id="nombre" required >
                             </div>
                             <div class="form-row mb-3">
-                                <input type="email" placeholder="Email" id="email" required>
+                                <input type="email" name='email' placeholder="Email" id="email" required>
                             </div>
                             <div class="form-row mb-3">
                                 <textarea name="mensaje" id="mensaje" placeholder="Su mensaje" required></textarea>
@@ -94,16 +94,16 @@
                         <p>El precio de la membresía es de $4700 por mes</p>
                         <form id="formularioDeProceso" class="needs-validation" method="post" novalidate="novalidate">
                             <div class="form-row mb-3">
-                                <input type="text" id="nombreProceso" placeholder="Nombre">
+                                <input type="text" name='nombreProceso' id="nombreProceso" placeholder="Nombre">
                             </div>
                             <div class="form-row mb-3">
-                                <input type="text" id="apellidoProceso" placeholder="Apellido">
+                                <input type="text" name='apellidoProceso' id="apellidoProceso" placeholder="Apellido">
                             </div>
                             <div class="form-row mb-3">
-                                <input type="number" id="meses" placeholder="Meses de inscripción">
+                                <input type="number" name='meses' id="meses" placeholder="Meses de inscripción">
                             </div>
                             <div class="form-row mb-3"> 
-                                <input type="email" id="mailProceso" placeholder="Email">
+                                <input type="email" name='mailProceso' id="mailProceso" placeholder="Email">
                             </div>
                             <div class="form-row mb-5">
                                 <button type="submit" class="btn btn-warning">Realizar pago</button>
